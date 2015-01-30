@@ -3,8 +3,8 @@ title: The Only Podcast on the Internet
 email: don@happycollision.com
 description: > 
   
-baseurl: "/jekyll.onlypodcast.com"
-url: "http://happycollision.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://theonlypodcastontheinternet.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: redcarpet
