@@ -37,7 +37,7 @@
 
 <header class="clearfix">
 	<h2>Episode {{ ep.number }}: {{ ep.title }}</h2>
-	<date>{{ ep.date }}</date>
+	<date>{{ ep.date | date: "%B %-d, %Y" }}</date>
 
   <img src="{{ site.baseurl }}/files/onlypodcast/{{ ep.img }}" />
 </header>
