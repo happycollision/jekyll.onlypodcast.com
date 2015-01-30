@@ -1,0 +1,20 @@
+# Site settings
+title: The Only Podcast on the Internet
+email: don@happycollision.com
+description: > 
+  
+baseurl: "/jekyll.onlypodcast.com"
+url: "http://happycollision.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ['smart']
+
+permalink: pretty
+
+exclude:
+  - .bowerrc
+  - .gitignore
+  - bower.json
+  
